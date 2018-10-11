@@ -1,4 +1,4 @@
-# EasyCustomBorders
+# Easy Custom Borders
 Add custom borders to your canoe games.
 
 ### Installation
