@@ -1,0 +1,13 @@
+defkornsEasyBorders(){
+  local path_usb="$mountpoint/media/hakchi/backgrounds"
+  local path_bg="$mountpoint/var/lib/clover/backgrounds"
+  local default_bg="$mountpoint/var/squashfs/usr/share/backgrounds"
+ 
+  if [ -d "$path_usb" ]; then
+  mount_bind "$path_usb" "$path_bg"
+ # mount -t overlayfs -o lowerdir="$default_bg",upperdir="$path_usb" overlayfs "$path_usb"
+ else
+  mount -t overlayfs -o lowerdir="$default_bg",upperdir="$path_bg" overlayfs "$path_bg"
+  fi
+}
+defkornsEasyBorders

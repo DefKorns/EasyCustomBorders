@@ -1,11 +1,14 @@
-# EasyCustomBorders
-Add custom borders to your canoe games.
-
-### Installation
+----------------
+Name: Easy Custom Borders
+Creator: DefKorns
+Category: UI
+Version: v1.5
+----------------
+### Description
 
 **NAND**
 
-- Add your background folders to `hakchi2CE\user_mods\easycustomborders.hmod\backgrounds`.
+- Add your background folders to `hakchi2CE\user_mods\defkorns_bordershack.hmod\backgrounds`.
 - Install Hmod
 - Set your background globally or individually `--use-decorative-frame /var/lib/clover/backgrounds/border_4_3` or `_pixel_perfect`
 

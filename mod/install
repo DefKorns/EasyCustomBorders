@@ -1,0 +1,10 @@
+# 
+# DefKorns Easy Custom Borders - v1.5 Apr 19, 2018
+# Thanks to Hakchiresources and TheOtherGuys
+#
+transfer_default
+[ ! -d "$mountpoint/var/lib/clover/backgrounds" ] && copy "$rootfs/backgrounds" "$mountpoint/var/lib/clover" 
+rm -fr "$rootfs/backgrounds"
+easyBorders
+cfg_defkorns_EasyBorders_enabled='y'
+return 1
