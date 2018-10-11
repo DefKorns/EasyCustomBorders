@@ -5,6 +5,9 @@ Category: UI
 Version: v1.5
 ----------------
 ### Description
+Add custom borders to your canoe games.
+
+### Installation
 
 **NAND**
 
@@ -25,5 +28,5 @@ Keep in mind that all background folders in `MEDIA:\hakchi\backgrounds` must sta
 
 
 ### Credits and Thanks
-- DefKorns (Developer)
-- HakchiResources Team (Simply the best)
+- [DefKorns](https://www.reddit.com/user/defkorns) - Coding
+- [HakchiResources Team](https://hakchiresources.com/) - Great community
